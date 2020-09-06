@@ -63,7 +63,7 @@ dungeon_loot.registered_loot = {
 	{name = "default:obsidian", chance = 0.25, count = {1, 3}, y = {-32, -64}},
 
 	-- ruby
-	{name = "default:ruby", chance = 0.2, count = {1, 2}}
+	{name = "default:ruby", chance = 0.2, count = {1, 2, 3}}
 }
 
 function dungeon_loot.register(t)
